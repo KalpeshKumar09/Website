@@ -12,14 +12,14 @@ const Home = () => {
 
     return (
         <>
-            <section className="min-h-screen flex justify-center py-6">
+            <section className="flex justify-center items-center py-6">
                 <div className=" flex flex-col md:flex md:flex-col max-w-[1100px] p-5 items-center gap-10 ">
                     <div className="pb-4">
                         <div className="flex flex-col gap-7 md:flex md:flex-row">
                             <div
                                 className="w-full lg:w-1/2 flex justify-center">
                                 <div className="flex justify-center lg:justify-center flex-col">
-                                    <h1 className="my-2 max-w-xl py-6 md:text-[46px] text-3xl">Bringing Vet Care to Your Doorstep</h1>
+                                    <h1 className="py-4 md:text-[46px] text-3xl">Bringing Vet Care to Your Doorstep</h1>
                                     <p className=" text-left">Looking for professional pet care services in Jaipur?
                                         Look no further </p>
                                 </div>
@@ -38,22 +38,22 @@ const Home = () => {
                     }}>
                         <div className="w-full flex flex-row md:flex md:flex-row items-center justify-between px-4 md:px-10">
                             <h1 className="text-white sm:text-2xl">Choose Hassle Free Vet Services</h1>
-                            <button className="bg-[#FAAF19] py-1 px-6 rounded text-white">Book A Vet Now</button>
+                            <button className="bg-[#FAAF19] text-[16px] py-1 px-2 md:px-6 rounded text-white">Book A Vet Now</button>
                         </div>
 
                     </div>
                 </div>
             </section >
-            <section className="min-h-screen flex flex-col items-center py-2 bg-no-repeat bg-cover bg-center" style={{
+            <section className=" flex flex-col items-center py-2 bg-no-repeat bg-cover bg-center" style={{
                 backgroundImage: `url(${homebg1})`,
 
             }}>
                 <div className=" flex flex-col max-w-[1100px] p-5 items-center gap-6 md:gap-20 ">
                     <div className="pb-2">
-                        <h1 className="my-2 text-center text-4xl ">
+                        <h1 className=" text-center text-[25px] font-semibold">
                             Be a Part Of  Our Community
                         </h1>
-                        <p className="px-4 md:px-40 text-center">Join our furry family! Get involved, connect with fellow pet lovers, and stay updated
+                        <p className="px-4 mt-4 md:mt-2 md:px-40 text-center">Join our furry family! Get involved, connect with fellow pet lovers, and stay updated
                             on all things Poodles PetCare. Together, let's create a thriving community centered
                             around our shared love for pets!</p>
                     </div>
@@ -146,15 +146,15 @@ const Home = () => {
                 </div>
             </section>
             <section className="min-h-screen flex justify-center py-6">
-                <div className=" flex flex-col max-w-[1100px] p-5 items-center gap-6 md:gap-20 ">
-                    <div className="pb-4">
-                        <h1 className="my-10 text-center text-4xl ">
+                <div className=" flex flex-col max-w-[1100px] p-5 items-center gap-6 md:gap-10 ">
+                    <div className="pb-2">
+                        <h1 className="my-10 text-center text-[25px] font-semibold">
                             Effortless Booking in Three Simple Steps
                         </h1>
-                        <p className="text-center text-xl">Easy as 1-2-3: Booking Made Simple</p>
+                        <p className="text-center">Easy as 1-2-3: Booking Made Simple</p>
                     </div>
-                    <div>
-                        <div className="mt-16 flex flex-wrap md:justify-center md:items-center gap-10">
+                    <div className="">
+                        <div className="flex flex-wrap md:justify-start justify-center md:items-center gap-2">
                             <div className="flex flex-row justify-center">
                                 <div className="w-full ">
                                     <img className="p-4 object-cover object-center"
@@ -166,19 +166,17 @@ const Home = () => {
                                 <h6
                                     className="mb-2 font-semibold text-center">Select Pet Profile</h6>
                                 <p
-                                    className="mb-4 text-neutral-400 text-center">Choose from your saved pet profiles or create a new one.
+                                    className=" text-neutral-400 text-center">Choose from your saved pet profiles or create a new one.
                                     Having a pet profile ensures personalized service for your
                                     furry friend.</p>
                             </div>
                         </div>
-                        <div className="mt-8 flex flex-wrap md:justify-center md:items-center md:mr-10">
-
-
+                        <div className="mt-8 flex flex-wrap md:justify-center md:items-center">
                             <div className="w-full max-w-xl lg:w-1/2">
                                 <h6
                                     className="mb-2 font-semibold text-center">Choose Service Concern</h6>
                                 <p
-                                    className="mb-4 text-neutral-400 text-center">Select the type of concern for your
+                                    className=" text-neutral-400 text-center">Select the type of concern for your
                                     pet's veterinary service. Whether it's a health
                                     issue, consultation, or specific</p>
                             </div>
@@ -190,12 +188,12 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mt-16 flex flex-wrap md:justify-center md:items-center gap-10">
+                        <div className=" mt-8 flex flex-wrap md:justify-end md:items-center gap-2">
                             <div className="w-full max-w-xl lg:w-1/2">
                                 <h6
                                     className="mb-2 font-semibold text-center">Schedule Appointment</h6>
                                 <p
-                                    className="mb-4 text-neutral-400 text-center">Pick a date and time slot for your pet's appointment. Choose
+                                    className=" text-neutral-400 text-center">Pick a date and time slot for your pet's appointment. Choose
                                     a convenient time that fits your schedule and complete the
                                     booking process.</p>
                             </div>

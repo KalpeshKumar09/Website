@@ -5,7 +5,7 @@ const TopNavigationBar = () => {
     return (
         <nav className="flex justify-between px-8 items-center py-6">
             <div className="flex items-center gap-6 justify-between w-full">
-                <div className="flex items-center px-6">
+                <div className="flex items-center px-2">
                     <svg width="150" height="50" viewBox="0 0 233 58" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clipPath="url(#clip0_490_937)">
                             <path d="M150.059 11.4303C149.225 11.6095 148.219 12.0353 147.9 12.3602C147.421 12.842 147.041 13.8504 146.931 14.9484C146.796 16.4161 146.796 44.5499 146.943 47.0259C147.372 54.4879 149.212 56.7401 155.494 57.4907C158.732 57.8827 161.763 57.8156 162.965 57.3339C163.885 56.953 164.363 56.079 164.609 54.2976C164.952 51.687 164.51 49.1099 163.603 48.4153C162.903 47.8776 162.523 47.7656 160.953 47.6759C159.248 47.575 158.941 47.463 158.622 46.813C158.426 46.4321 158.413 45.0093 158.352 30.3764C158.291 17.5926 158.254 14.2649 158.119 13.9064C157.653 12.6179 156.917 11.9233 155.592 11.5311C154.733 11.2846 151.102 11.2174 150.059 11.4303Z" fill="#545AFA" />
@@ -33,8 +33,8 @@ const TopNavigationBar = () => {
                     </svg>
                 </div>
                 <div className="flex flex-row items-center gap-6">
-                    <Link to="/Login" className="text-black font-medium">Log In</Link>
-                    <Link to="/SignUp" className="bg-[#FAAF19] py-1 px-6 rounded text-white">Sign Up</Link>
+                    <Link to="/Login" className="text-black font-medium ">Log In</Link>
+                    <Link to="/SignUp" className="bg-[#FAAF19] md:py-1 px-2 md:px-6 rounded text-white">Sign Up</Link>
                 </div>
             </div>
         </nav>

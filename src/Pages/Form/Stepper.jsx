@@ -6,13 +6,12 @@ const Stepper = ({ steps, currentStep }) => {
           <div key={i} className="flex items-center mb-6 relative w-full">
             <div className="flex flex-col items-center">
               <div
-                className={`flex items-center justify-center w-10 h-10 rounded-full border-2  ${
-                  currentStep === i + 1
+                className={`flex items-center justify-center w-10 h-10 rounded-full border-2  ${currentStep === i + 1
                     ? "border-blue-500 bg-blue-500 text-white"
                     : i + 1 < currentStep || complete
-                    ? "border-blue-500 bg-blue-500 text-white"
-                    : "border-gray-300 bg-white text-gray-500"
-                }`}
+                      ? "border-blue-500 bg-blue-500 text-white"
+                      : "border-gray-300 bg-white text-gray-500"
+                  }`}
               >
                 {i + 1 < currentStep || complete ? (
                   <svg
@@ -39,9 +38,8 @@ const Stepper = ({ steps, currentStep }) => {
             </div>
             <div className="ml-4">
               <p
-                className={`text-gray-500 ${
-                  currentStep === i + 1 ? "font-bold text-blue-500" : ""
-                }`}
+                className={`text-gray-500 ${currentStep === i + 1 ? "font-bold text-blue-500" : ""
+                  }`}
               >
                 {step}
               </p>

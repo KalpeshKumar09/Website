@@ -8,6 +8,8 @@ import VetPartnerPage from "./Pages/Vet-Partner/VetPartnerPage"
 import Login from "./components/Login/Login"
 import SignUp from "./components/SignUp/SignUp"
 import ForgotPassword from "./components/ForgotPassword/ForgotPassword"
+import About from "./Pages/About/About"
+import SelectAddress from "./Pages/Form/SelectAddress"
 
 
 
@@ -22,12 +24,14 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/SelectAddress" element={<SelectAddress />} />
+          <Route path="/About" element={<About />} />
           <Route path="/VetPartnerPage" element={<VetPartnerPage />} />
           <Route path="/ForgotPassword" element={<ForgotPassword />} />
           <Route path="/SignUp" element={<SignUp />} />
           <Route path="/Login" element={<Login />} />
         </Routes>
-        <Footer />
+        {/*  <Footer /> */}
       </Router>
     </div>
   )

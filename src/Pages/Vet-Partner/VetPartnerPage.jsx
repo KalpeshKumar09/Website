@@ -22,7 +22,7 @@ const VetPartnerPage = () => {
             <div className="px-10">
                 <Breadcrumb path={path} />
             </div>
-            <section className=" min-h-screen flex items-center justify-center py-6 " >
+            <section className=" flex flex-col justify-center items-center py-6 " >
                 <div className=" flex max-w-[1100px] p-5 items-center gap-10 w-full bg-no-repeat bg-cover" style={{
                     backgroundImage: `url(${vet2})`,
                 }}>
@@ -87,18 +87,18 @@ const VetPartnerPage = () => {
                                 <label htmlFor="service">Service Offered by you</label>
                                 <textarea name="service" rows="5" cols="10" placeholder="Service"></textarea>
                             </div>
-                            <button className="bg-[#545AFA] rounded-md text-white py-2 text-[16px]">
+                            <button className=" rounded-md text-white py-2 text-[16px]">
                                 Join Now
                             </button>
                         </form>
                     </div>
                 </div>
             </section>
-            <section className="min-h-screen flex justify-center text-gray-600">
+            <section className=" flex flex-col justify-center items-center  py-4">
                 <div className="container px-5 py-24 w-full max-w-[1100px]">
                     <div className="text-center mb-12">
-                        <h1 className="text-2xl text-gray-700 font-semibold">Why pet care With Poodles?</h1>
-                        <p className="text-base md:text-lg text-indigo-700 mb-1 px-32">We're a nationally recognized brand just for pet people and our pet vets love the dedicated support they receive.</p>
+                        <h1 className="text-2xl font-semibold">Why pet care With Poodles?</h1>
+                        <p className="text-base md:text-lg  mb-1 px-32">We're a nationally recognized brand just for pet people and our pet vets love the dedicated support they receive.</p>
                     </div>
                     <div className="flex flex-wrap -m-4">
                         <div className="p-2 sm:w-1/2 lg:w-1/4 mt-8">
@@ -148,10 +148,10 @@ const VetPartnerPage = () => {
                     </div>
                 </div>
             </section>
-            <section className="min-h-screen flex justify-center">
+            <section className="flex flex-col justify-center items-center py-6">
                 <div className="flex flex-col max-w-[1100px] p-5 items-center">
                     <div className="pb-4">
-                        <h1 className=" text-center text-2xl">Our Process Consists of 4 Steps</h1>
+                        <h1 className=" text-center text-2xl font-semibold">Our Process Consists of 4 Steps</h1>
                         <p className="text-center px-20 md:px-40 lg:px-56 mt-6">We approve submissions from select cities and states all across the United States, and approved cat sitters can expect to get their business up and running in an average of one week.</p>
                         <div>
                             <div className="mt-16 flex flex-wrap lg:justify-center gap-10">

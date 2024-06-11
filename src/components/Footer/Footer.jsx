@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Footer = () => {
     return (
-        <div className="flex flex-col min-h-screen">
+        <div className=" flex flex-col overflow-hidden">
             <footer className="mt-auto w-full text-white">
                 <div className="relative w-full">
                     <svg

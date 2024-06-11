@@ -6,8 +6,8 @@ import about4 from "../Images/About-Images/about4.png";
 const About = () => {
     return (
         <>
-            <div className="flex justify-center items-center min-h-screen px-4"  >
-                <div className="flex flex-col gap-2 md:gap-16 h-screen bg-center bg-no-repeat justify-center bg-contain max-w-4xl" style={{
+            <section className="flex justify-center items-center px-4 min-h-screen"  >
+                <div className="flex flex-col gap-2 md:gap-16 bg-center h-screen  bg-no-repeat justify-center bg-contain max-w-4xl" style={{
                     backgroundImage: `url(${about4})`,
                 }} >
                     <div className="flex items-center justify-center">
@@ -21,18 +21,18 @@ const About = () => {
                         </p>
                     </div>
                 </div>
-            </div>
-            <div className="flex flex-col justify-center items-center min-h-screen px-4 bg-center bg-no-repeat bg-contain" >
-                <div className="flex flex-col gap-2 md:gap-16 h-screen bg-center bg-no-repeat justify-center bg-contain max-w-4xl" style={{
+            </section>
+            <section className="flex flex-col justify-center items-center px-4 bg-center bg-no-repeat bg-contain min-h-screen" >
+                <div className="flex flex-col bg-center h-screen bg-no-repeat justify-center bg-contain max-w-4xl" style={{
                     backgroundImage: `url(${about2})`,
                 }}>
-                    <div className="flex justify-center flex-row">
+                    <div className="flex items-center justify-start md:flex-row flex-col">
                         <img src={about1} alt="Mission Image" className="w-full md:w-1/3" />
-                        <h1 className=" text-center text-lg md:text-2xl">
-                            Our <span className="font-semibold">Mission</span>
+                        <h1 className=" text-center text-lg md:text-2xl font-semibold">
+                            Our Mission
                         </h1>
                     </div>
-                    <div className="flex flex-col gap-16 shadow-2xl p-4 md:p-20 w-full max-w-4xl">
+                    <div className="flex flex-col gap-16 shadow-2xl p-4 md:p-16 w-full max-w-4xl bg-white">
                         <div className="flex justify-center items-center">
                             <p className="my-2 py-6 text-center text-sm md:text-base">
                                 Meowtel is on a mission to help every cat and cat parent live their best life. As
@@ -45,7 +45,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     );
 };

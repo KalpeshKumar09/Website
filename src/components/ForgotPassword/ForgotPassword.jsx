@@ -11,7 +11,7 @@ const ForgotPassword = () => {
             <div className="px-10">
                 <Breadcrumb path={path} />
             </div>
-            <div className="flex items-center justify-center min-h-screen bg-white">
+            <div className="min-h-screen flex flex-col justify-center items-center bg-white">
                 <div className="relative flex flex-col m-6 p-2 gap-4 space-y-8   md:flex-row md:space-y-0 max-w-[1100px]">
                     <div className="relative md:block hidden w-1/2">
                         <h2 className="text-[32px] font-bold text-neutral-800">

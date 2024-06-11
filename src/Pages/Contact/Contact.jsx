@@ -14,7 +14,7 @@ const Contact = () => {
             <div className="px-10">
                 <Breadcrumb path={path} />
             </div>
-            <section className=" min-h-screen flex flex-col items-center justify-center py-6 bg-contain bg-no-repeat bg-center" style={{
+            <section className=" flex flex-col justify-center items-center py-6 bg-contain bg-no-repeat bg-center" style={{
                 backgroundImage: `url(${contact1})`,
             }}>
                 <div className=" flex max-w-[1100px] p-2 items-center gap-10 bg-white mt-10" >
@@ -97,7 +97,7 @@ const Contact = () => {
                     <h1 className="text-xl md:text-2xl text-gray-700 font-semibold">Our Most Common Questions</h1>
                 </div>
             </section>
-            <section className="min-h-screen flex justify-center items-center text-gray-600 bg-no-repeat bg-cover" style={{
+            <section className=" flex flex-col justify-center items-center text-gray-600 bg-no-repeat bg-cover" style={{
                 backgroundImage: `url(${contact2})`,
             }}>
                 <div className="px-5 py-24 w-full max-w-[1100px]">
@@ -275,7 +275,7 @@ const Contact = () => {
                     </div>
                 </div>
             </section>
-            <section className="min-h-screen flex justify-center text-gray-600">
+            <section className=" flex flex-col justify-center items-center text-gray-600">
                 <div className="container px-5 py-24 w-full max-w-[1100px]">
                     <div className="text-center mb-12">
                         <h1 className="text-2xl text-gray-700 font-semibold">Still have questions?</h1>

@@ -1,8 +1,8 @@
-import React from "react";
+
 
 const SelectAddress = () => {
   return (
-    <div className="fixed inset-0 bg-transparent flex justify-center items-center py-10">
+    <div className="fixed inset-0 bg-transparent flex justify-center items-center py-14">
       <div className=" bg-white shadow-xl rounded-xl px-10 py-4 flex flex-col items-center mx-4 w-full max-w-[800px]">
         <div>
           <h1 className=" text-center text-3xl">Please Add Address Details</h1>
@@ -36,8 +36,8 @@ const SelectAddress = () => {
               >
                 <rect width="39" height="35" rx="17.5" fill="#545AFA" />
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M21.6605 6.16C21.6605 4.96707 20.6934 4 19.5005 4C18.3076 4 17.3405 4.96706 17.3405 6.16V15.3401H8.16C6.96707 15.3401 6 16.3072 6 17.5001C6 18.693 6.96706 19.6601 8.16 19.6601H17.3405V28.84C17.3405 30.0329 18.3076 31 19.5005 31C20.6934 31 21.6605 30.0329 21.6605 28.84V19.6601H30.84C32.0329 19.6601 33 18.693 33 17.5001C33 16.3072 32.0329 15.3401 30.84 15.3401H21.6605V6.16Z"
                   fill="#F5F5F5"
                 />
@@ -46,7 +46,7 @@ const SelectAddress = () => {
             </button>
           </div>
         </div>
-        <form action="" className="grid grid-cols-2 gap-4 py-6">
+        <form action="" className="grid grid-cols-2 gap-8 py-6">
           <div className="flex flex-col gap-2">
             <label htmlFor="date" className="text-center">
               Select Date
@@ -55,8 +55,6 @@ const SelectAddress = () => {
               type="date"
               className="text-center"
               name="date"
-              onChange={inputChange("date")}
-              value={values.date}
             />
           </div>
           <div className="flex flex-col gap-2 mb-4">

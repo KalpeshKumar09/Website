@@ -1,11 +1,11 @@
 const AddAddress = () => {
   return (
     <div className="fixed inset-0 bg-transparent flex justify-center items-center py-10">
-      <div className=" bg-white shadow-xl rounded-xl px-10 py-4 flex flex-col items-center mx-4 w-full max-w-[800px]">
+      <div className=" shadow-xl rounded-xl py-4 flex flex-col items-center mx-4 w-full max-w-[1100px]">
         <div>
           <h1 className=" text-center text-3xl">Address Details</h1>
         </div>
-        <form action="" className="grid grid-cols-2 gap-4 py-6">
+        <form action="" className="grid grid-cols-2 gap-4 py-6 place-content-between">
           <div className="flex flex-col gap-2">
             <label htmlFor="name">Name</label>
             <input
