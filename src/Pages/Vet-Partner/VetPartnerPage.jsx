@@ -8,10 +8,20 @@ import vet7 from "../Images/VetPartner-Images/vet7.png"
 import vet8 from "../Images/VetPartner-Images/vet8.png"
 import vet9 from "../Images/VetPartner-Images/vet9.png"
 import vet10 from "../Images/VetPartner-Images/vet10.png"
+import Breadcrumb from "../../components/NavigationBar/Breadcrumb";
 
 const VetPartnerPage = () => {
+
+    const path = [
+        { label: 'Home', href: '/' },
+        { label: 'VetPartnerPage', href: '/VetPartnerPage' }
+    ];
+
     return (
         <>
+            <div className="px-10">
+                <Breadcrumb path={path} />
+            </div>
             <section className=" min-h-screen flex items-center justify-center py-6 " >
                 <div className=" flex max-w-[1100px] p-5 items-center gap-10 w-full bg-no-repeat bg-cover" style={{
                     backgroundImage: `url(${vet2})`,

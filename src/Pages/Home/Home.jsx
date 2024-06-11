@@ -4,7 +4,6 @@ import homw4 from "../Images/Home-Images/homw4.png"
 import home5 from "../Images/Home-Images/home5.png"
 import home6 from "../Images/Home-Images/home6.png"
 import homebg1 from "../Images/Home-Images/homebg1.png"
-import homebg2 from "../Images/Home-Images/homebg2.png"
 
 
 const Home = () => {
@@ -66,7 +65,7 @@ const Home = () => {
                                         <circle cx="32.5" cy="32.5" r="32.5" fill="#D9D9D9" />
                                     </svg>
 
-                                    <div className="px-6 text-center">
+                                    <div className="px-2 text-center">
 
                                         <h4 className="leading-relaxed  text-center">PoodlesPetcare</h4>
                                         <p className="leading-relaxed  text-center">@PoodlesPetcare</p>
@@ -94,7 +93,7 @@ const Home = () => {
                                         <circle cx="32.5" cy="32.5" r="32.5" fill="#D9D9D9" />
                                     </svg>
 
-                                    <div className="px-6 text-center">
+                                    <div className="px-2 text-center">
 
                                         <h4 className="leading-relaxed  text-center">PoodlesPetcare</h4>
                                         <p className="leading-relaxed  text-center">@PoodlesPetcare</p>
@@ -122,7 +121,7 @@ const Home = () => {
                                         <circle cx="32.5" cy="32.5" r="32.5" fill="#D9D9D9" />
                                     </svg>
 
-                                    <div className="px-6 text-center">
+                                    <div className="px-2 text-center">
 
                                         <h4 className="leading-relaxed  text-center">PoodlesPetcare</h4>
                                         <p className="leading-relaxed  text-center">@PoodlesPetcare</p>
